@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>الزهراء الجمال | مستشارة أسرية وزواجية ولايف كوتش</title>
+<meta name="description" content="جلسات استشارية وتدريب حياتي أونلاين مع الزهراء الجمال، مستشارة أسرية وزواجية بخبرة تتجاوز عشر سنوات.">
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--rose:#d9788b;--deep:#b8576d;--ink:#5a2d3a;--blush:#fdeef0;--cream:#fff8f6;--soft:#f6d5da;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-behavior:smooth;scroll-padding-top:calc(76px + env(safe-area-inset-top,0px))}
+*{box-sizing:border-box;margin:0}
+body{font-family:Tajawal,system-ui,sans-serif;background:var(--cream);color:var(--ink);line-height:1.8;font-size:17px}
+.w{max-width:1080px;margin:auto;padding:0 20px}
+section{padding:72px 0}
+h1,h2,h3{line-height:1.3}
+h2{font-size:clamp(26px,4vw,36px);text-align:center;margin-bottom:10px}
+.sub{text-align:center;max-width:560px;margin:0 auto 38px;opacity:.8}
+.btn{display:inline-block;border:0;cursor:pointer;font:700 16px Tajawal,sans-serif;padding:13px 30px;border-radius:99px;background:var(--rose);color:#fff;text-decoration:none;transition:.2s}
+.btn:hover{background:var(--deep)}
+.btn.o{background:transparent;color:var(--deep);border:2px solid var(--rose)}
+.btn.o:hover{background:var(--rose);color:#fff}
+/* nav */
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:30;background:#fff8f6ee;backdrop-filter:blur(8px);border-bottom:1px solid var(--soft)}
+header .w{display:flex;align-items:center;justify-content:space-between;height:68px;gap:14px}
+.logo{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--deep);font-weight:800;font-size:20px;line-height:1.2}
+.logo small{display:block;font-size:12px;font-weight:500;color:var(--ink);opacity:.7}
+nav{display:flex;gap:20px;font-size:15px;font-weight:500}
+nav a{color:var(--ink);text-decoration:none}nav a:hover{color:var(--deep)}
+header .btn{padding:9px 20px;font-size:14px}
+@media(max-width:900px){nav{display:none}}
+/* hero */
+.hero{background:linear-gradient(135deg,#fde3e7,#fff8f6 65%);padding:70px 0 60px}
+.hero .w{display:grid;gap:36px;align-items:center;grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+.hero h1{font-size:clamp(34px,6vw,56px);color:var(--deep);font-weight:800}
+.hero p{margin:14px 0 26px;max-width:480px}
+.hero .acts{display:flex;gap:12px;flex-wrap:wrap}
+.photo{aspect-ratio:4/5;max-width:380px;margin:auto;width:100%;border-radius:200px 200px 28px 28px;background:linear-gradient(170deg,#f3b9c3,#c0657a);display:grid;place-items:center;text-align:center;color:#fff;padding:20px;font-size:15px;box-shadow:0 20px 50px #d9788b44}
+.quote{font-size:15px;color:var(--deep);margin-top:20px;font-weight:500}
+/* cards */
+.g{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+.c{background:#fff;border:1px solid var(--soft);border-radius:22px;padding:28px 22px;text-align:center;box-shadow:0 8px 24px #d9788b14}
+.c .i{width:56px;height:56px;border-radius:50%;background:var(--blush);display:grid;place-items:center;margin:0 auto 14px;font-size:26px}
+.c h3{font-size:19px;margin-bottom:6px;color:var(--deep)}
+.c p{font-size:15px;opacity:.85}
+/* about */
+.about{background:#fff}
+.about .w{display:grid;gap:36px;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));align-items:center}
+.about h2{text-align:right}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:22px}
+.stats div{background:var(--blush);border-radius:18px;text-align:center;padding:16px 6px}
+.stats b{display:block;font-size:30px;color:var(--deep)}
+.stats span{font-size:13px}
+.tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}
+.tags span{background:var(--blush);color:var(--deep);border-radius:99px;padding:5px 14px;font-size:14px}
+/* formats + packages */
+.pk{position:relative}
+.pk .p{font-size:30px;font-weight:800;color:var(--deep);margin:8px 0}
+.pk .p small{font-size:13px;font-weight:500;opacity:.7}
+.pk ul{list-style:none;padding:0;text-align:right;font-size:15px;margin:12px 0 18px}
+.pk li:before{content:"✓ ";color:var(--rose);font-weight:700}
+.pk.top{border:2px solid var(--rose)}
+.pk.top:before{content:"الأكثر طلبًا";position:absolute;top:-13px;right:50%;transform:translateX(50%);background:var(--rose);color:#fff;font-size:13px;padding:2px 14px;border-radius:99px}
+.alt{background:var(--blush)}
+/* testimonials, blog */
+.t p{font-size:16px;margin-bottom:10px}.t b{color:var(--deep);font-size:14px}
+.blog .c{text-align:right}
+.blog .c a{color:var(--deep);font-weight:700;font-size:14px;text-decoration:none}
+/* booking */
+.book{background:linear-gradient(160deg,#fde3e7,#f6d5da)}
+.bx{max-width:720px;margin:auto;background:#fff;border-radius:26px;padding:30px;box-shadow:0 16px 40px #b8576d22}
+.f{display:grid;gap:14px;grid-template-columns:1fr 1fr}
+.f .full{grid-column:1/-1}
+@media(max-width:560px){.f{grid-template-columns:1fr}}
+label{font-size:14px;font-weight:700;display:block;margin-bottom:4px}
+input,select,textarea{width:100%;font:16px Tajawal,sans-serif;padding:11px 14px;border:1.5px solid var(--soft);border-radius:12px;background:var(--cream);color:var(--ink)}
+input:focus,select:focus,textarea:focus{outline:2px solid var(--rose);border-color:transparent}
+.opt{font-weight:400;opacity:.6}
+.pay{display:flex;gap:10px;flex-wrap:wrap;font-size:14px;margin-top:6px}
+.pay span{border:1px dashed var(--rose);border-radius:10px;padding:4px 12px}
+.note{font-size:13px;opacity:.75;margin-top:12px;text-align:center}
+.ct{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:26px}
+.nl{display:flex;gap:10px;max-width:460px;margin:20px auto 0}
+.nl input{flex:1}
+/* footer */
+footer{background:var(--ink);color:#f8e4e8;text-align:center;padding:34px 20px;font-size:14px}
+footer a{color:#f8e4e8}
+.wa{position:fixed;bottom:calc(18px + env(safe-area-inset-bottom,0px));left:18px;z-index:40;width:58px;height:58px;border-radius:50%;background:#25d366;color:#fff;display:grid;place-items:center;font-size:30px;text-decoration:none;box-shadow:0 8px 20px #0003}
+.hb{display:flex;align-items:center;gap:10px}
+.lt{position:relative;display:flex;direction:ltr;border:1.5px solid var(--rose);border-radius:99px;background:#fff;padding:3px;cursor:pointer;font:700 13px Tajawal,sans-serif}
+.lt span{position:relative;z-index:1;padding:4px 12px;color:var(--deep);transition:color .25s}
+.lt:before{content:"";position:absolute;top:3px;bottom:3px;left:3px;width:calc(50% - 3px);border-radius:99px;background:var(--rose);transition:transform .25s}
+.lt[data-l=en]:before{transform:translateX(100%)}
+.lt[data-l=ar] span:first-child,.lt[data-l=en] span:last-child{color:#fff}
+html[dir=ltr] .about h2,html[dir=ltr] .pk ul,html[dir=ltr] .blog .c{text-align:left}
+html[dir=ltr] .wa{left:auto;right:18px}
+html[lang=en] .pk.top:before{content:"Most popular"}
+@media(max-width:560px){.logo small{display:none}.logo{font-size:16px}header .btn{padding:8px 12px;font-size:13px}.lt span{padding:4px 8px}.hb{gap:6px}}
+</style>
+</head>
+<body>
+
+<header><div class="w">
+<a class="logo" href="#top"><svg width="38" height="38" viewBox="0 0 40 40" fill="none" stroke="#d9788b" stroke-width="1.8" stroke-linecap="round"><path d="M20 6c4 4 5 9 0 15-5-6-4-11 0-15zM9 14c5 0 9 3 11 9-6 1-10-3-11-9zM31 14c-5 0-9 3-11 9 6 1 10-3 11-9zM8 28c6 2 12 2 12 2s6 0 12-2"/></svg><span>الزهراء الجمال<small>مستشارة أسرية وزواجية | لايف كوتش</small></span></a>
+<nav><a href="#top">الرئيسية</a><a href="#about">من أنا</a><a href="#services">خدماتي</a><a href="#packages">البرامج</a><a href="#reviews">آراء العملاء</a><a href="#blog">المدونة</a><a href="#contact">تواصلي معي</a></nav>
+<div class="hb"><button class="lt" id="lt" data-l="ar" type="button" aria-label="Language / اللغة"><span>ع</span><span>EN</span></button><a class="btn" href="#book">احجزي جلسة</a></div>
+</div></header>
+
+<main id="top">
+<section class="hero"><div class="w">
+<div>
+<h1>حياة أجمل تبدأ من الداخل</h1>
+<p>مرحبًا بكِ، أنا الزهراء الجمال. أرافقكِ في رحلتكِ نحو علاقة أسرية وزوجية أكثر وعيًا وتوازنًا، وحياة تشبهكِ، بجلسات أونلاين من أي مكان في العالم.</p>
+<div class="acts"><a class="btn" href="#book">احجزي جلسة الآن</a><a class="btn o" href="#book">استشارة تعريفية مجانية</a></div>
+<p class="quote">✦ كل خطوة صغيرة تقرّبكِ من حياة أجمل</p>
+</div>
+<div class="photo"><div>ضعي صورة الزهراء هنا<br><small>(استبدلي هذا الإطار بصورة احترافية)</small></div></div>
+</div></section>
+
+<section id="services"><div class="w">
+<h2>خدماتي</h2><p class="sub">جلسات مبنية على أسس علمية وأدوات التدريب الحياتي الحديثة، تناسب احتياجكِ وخصوصيتكِ.</p>
+<div class="g">
+<div class="c"><div class="i">💞</div><h3>الاستشارات الزوجية والأسرية</h3><p>مساندة للأزواج والمقبلين على الزواج لبناء علاقة صحية ومستقرة.</p></div>
+<div class="c"><div class="i">🌸</div><h3>التدريب الحياتي</h3><p>خطة واضحة لأهدافكِ وإدارة الوقت والذات وحل المشكلات.</p></div>
+<div class="c"><div class="i">🧠</div><h3>العلاج المعرفي السلوكي</h3><p>أدوات عملية لتغيير الأفكار والسلوكيات التي تُثقل حياتكِ.</p></div>
+<div class="c"><div class="i">🤝</div><h3>التواصل الأسري وحل النزاعات</h3><p>مهارات حوار فعّال لعلاقات أقرب وخلافات أقل.</p></div>
+</div></div></section>
+
+<section class="about alt" id="about"><div class="w">
+<div>
+<h2>من أنا</h2>
+<p>مستشارة أسرية وزواجية ولايف كوتش، بخبرة تزيد على عشر سنوات في الإرشاد الأسري والزواجي والتدريب الحياتي، وأساس علمي يجمع بين علم النفس والعلاج المعرفي السلوكي (CBT). قدّمتُ عشرات الجلسات الفردية والجماعية حضوريًا وعن بُعد، وأسهمتُ في رفع الوعي المجتمعي بقضايا الأسرة عبر المقالات والمحتوى المرئي.</p>
+<div class="stats"><div><b>+10</b><span>سنوات خبرة</span></div><div><b>+40</b><span>دورة ودبلومة</span></div><div><b>+3</b><span>سنوات أونلاين</span></div></div>
+<div class="tags"><span>ليسانس علم النفس – جامعة القاهرة</span><span>دبلومة الإرشاد الأسري – جامعة عين شمس</span><span>اعتماد لايف كوتش</span><span>مدربة زواجية معتمدة</span><span>تدريب المدربين TOT</span></div>
+</div>
+<div class="g" style="grid-template-columns:1fr 1fr">
+<div class="c"><h3>فردي</h3><p>جلسة خاصة بسرّية تامة.</p></div>
+<div class="c"><h3>جماعي</h3><p>مجموعات صغيرة للتبادل والدعم.</p></div>
+<div class="c"><h3>ورش عمل</h3><p>تواصل أسري، إدارة الوقت، حل المشكلات.</p></div>
+<div class="c"><h3>تدريب مؤسسي</h3><p>برامج للجهات والمؤسسات.</p></div>
+</div></div></section>
+
+<section id="packages"><div class="w">
+<h2>البرامج والأسعار</h2><p class="sub">مدة الجلسة 60 دقيقة عبر الإنترنت. اختاري ما يناسبكِ.</p>
+<div class="g">
+<div class="c pk"><h3>جلسة واحدة</h3><div class="p">000 <small>ر.س</small></div><ul><li>جلسة فردية أونلاين</li><li>خطة عمل مختصرة</li></ul><a class="btn o" href="#book">احجزي</a></div>
+<div class="c pk top"><h3>برنامج 4 أسابيع</h3><div class="p">000 <small>ر.س</small></div><ul><li>4 جلسات فردية</li><li>متابعة عبر واتساب</li><li>تمارين أسبوعية</li></ul><a class="btn" href="#book">احجزي</a></div>
+<div class="c pk"><h3>برنامج 12 أسبوعًا</h3><div class="p">000 <small>ر.س</small></div><ul><li>12 جلسة فردية</li><li>خطة تحول متكاملة</li><li>متابعة مستمرة</li></ul><a class="btn o" href="#book">احجزي</a></div>
+</div></div></section>
+
+<section class="alt" id="reviews"><div class="w">
+<h2>آراء العملاء</h2><p class="sub">نماذج تجريبية، تُستبدل بآراء حقيقية بعد موافقة أصحابها.</p>
+<div class="g">
+<div class="c t"><p>«ساعدتني الجلسات على فهم شريكي والتواصل معه بهدوء. فرق كبير في بيتنا.»</p><b>— عميلة (نموذج)</b></div>
+<div class="c t"><p>«أسلوب دافئ ومحترف، وخرجتُ بخطوات عملية واضحة.»</p><b>— عميلة (نموذج)</b></div>
+<div class="c t"><p>«استشارة ما قبل الزواج غيّرت نظرتنا لكثير من الأمور.»</p><b>— عميل (نموذج)</b></div>
+</div></div></section>
+
+<section class="blog" id="blog"><div class="w">
+<h2>المدونة</h2><p class="sub">مقالات قصيرة عن العلاقات والأسرة والوعي الذاتي.</p>
+<div class="g">
+<div class="c"><h3>لغات الحب الخمس: كيف تفهمين شريككِ؟</h3><p>مدخل بسيط لفهم طريقة كل طرف في التعبير عن الحب.</p><a href="#">اقرئي المزيد ←</a></div>
+<div class="c"><h3>كيف تحلّين الخلاف دون جرح؟</h3><p>خطوات عملية لحوار هادئ يقرّب ولا يباعد.</p><a href="#">اقرئي المزيد ←</a></div>
+<div class="c"><h3>التربية بالحب: أين نبدأ؟</h3><p>أساسيات التربية الإيجابية في الحياة اليومية.</p><a href="#">اقرئي المزيد ←</a></div>
+</div>
+<form class="nl" onsubmit="event.preventDefault();thanks(this)"><input type="email" required placeholder="بريدكِ الإلكتروني للنشرة الأسبوعية"><button class="btn" type="submit">اشتركي</button></form>
+</div></section>
+
+<section class="book" id="book"><div class="w">
+<h2>احجزي جلستكِ</h2><p class="sub">املئي النموذج وسنؤكد الموعد معكِ. الاستشارة التعريفية المجانية متاحة أحيانًا، اسألي عنها.</p>
+<div class="bx"><form id="bf" class="f">
+<div><label>الاسم *</label><input id="n" required></div>
+<div><label>رقم الجوال (واتساب) *</label><input id="p" type="tel" required dir="ltr" placeholder="+966..."></div>
+<div><label>نوع الجلسة *</label><select id="s"><option>استشارة تعريفية مجانية</option><option>جلسة واحدة</option><option>برنامج 4 أسابيع</option><option>برنامج 12 أسبوعًا</option><option>ورشة عمل / جلسة جماعية</option></select></div>
+<div><label>الموعد المفضل *</label><input id="d" type="datetime-local" required></div>
+<div class="full"><label>نبذة عن حالتكِ <span class="opt">(اختياري)</span></label><textarea id="m" rows="3" placeholder="يمكنكِ ترك هذا الحقل فارغًا"></textarea></div>
+<div class="full"><label>طريقة الدفع</label><div class="pay"><span>💳 بطاقة</span><span>🍎 Apple Pay</span><span>🏦 تحويل بنكي</span></div></div>
+<div class="full"><button class="btn" style="width:100%" type="submit">تأكيد الحجز</button></div>
+</form>
+<p class="note">يُرسل طلبكِ عبر واتساب حاليًا. الدفع الإلكتروني والتذكيرات التلقائية يُفعَّلان عند ربط الموقع بنظام الحجز.</p></div>
+</div></section>
+
+<section id="contact"><div class="w">
+<h2>تواصلي معي</h2><p class="sub">يسعدني سماعكِ في أي وقت.</p>
+<div class="ct">
+<a class="btn" href="https://wa.me/966565037023">💬 واتساب</a>
+<a class="btn o" href="tel:+966565037023">📞 اتصال</a>
+<a class="btn o" href="mailto:aljammal.zahraa@gmail.com">✉️ البريد</a>
+</div></div></section>
+</main>
+
+<footer>© الزهراء الجمال – مستشارة أسرية وزواجية | لايف كوتش · الرياض، المملكة العربية السعودية · الجلسات تُقدَّم عن بُعد لجميع الدول</footer>
+<a class="wa" href="https://wa.me/966565037023" aria-label="واتساب">💬</a>
+
+<script>
+document.getElementById("bf").addEventListener("submit",function(e){
+e.preventDefault();
+var v=function(i){return document.getElementById(i).value.trim()};
+var t="مرحبًا الزهراء، أرغب في حجز جلسة.\nالاسم: "+v("n")+"\nالجوال: "+v("p")+"\nنوع الجلسة: "+v("s")+"\nالموعد المفضل: "+v("d").replace("T"," ")+(v("m")?"\nنبذة: "+v("m"):"");
+window.open("https://wa.me/966565037023?text="+encodeURIComponent(t),"_blank");
+});
+</script>
+<script>
+var L="ar",lt=document.getElementById("lt");
+var T={"الزهراء الجمال":"Zahraa Al-Jammal","مستشارة أسرية وزواجية | لايف كوتش":"Family & Marital Counsellor | Life Coach","الرئيسية":"Home","من أنا":"About me","خدماتي":"Services","البرامج":"Programmes","آراء العملاء":"Testimonials","المدونة":"Blog","تواصلي معي":"Contact me","احجزي جلسة":"Book a session",
+"حياة أجمل تبدأ من الداخل":"A more beautiful life begins within","مرحبًا بكِ، أنا الزهراء الجمال. أرافقكِ في رحلتكِ نحو علاقة أسرية وزوجية أكثر وعيًا وتوازنًا، وحياة تشبهكِ، بجلسات أونلاين من أي مكان في العالم.":"Welcome, I’m Zahraa Al-Jammal. I walk with you toward a more mindful, balanced family and marital relationship, and a life that feels like yours, through online sessions from anywhere in the world.","احجزي جلسة الآن":"Book a session now","استشارة تعريفية مجانية":"Free intro consultation","✦ كل خطوة صغيرة تقرّبكِ من حياة أجمل":"✦ Every small step brings you closer to a more beautiful life","ضعي صورة الزهراء هنا":"Place Zahraa’s photo here","(استبدلي هذا الإطار بصورة احترافية)":"(replace this frame with a professional photo)",
+"جلسات مبنية على أسس علمية وأدوات التدريب الحياتي الحديثة، تناسب احتياجكِ وخصوصيتكِ.":"Sessions built on scientific foundations and modern life-coaching tools, tailored to your needs and privacy.","الاستشارات الزوجية والأسرية":"Marital & Family Counselling","مساندة للأزواج والمقبلين على الزواج لبناء علاقة صحية ومستقرة.":"Support for couples and those preparing for marriage to build a healthy, stable relationship.","التدريب الحياتي":"Life Coaching","خطة واضحة لأهدافكِ وإدارة الوقت والذات وحل المشكلات.":"A clear plan for your goals, time and self management, and problem solving.","العلاج المعرفي السلوكي":"Cognitive Behavioural Therapy","أدوات عملية لتغيير الأفكار والسلوكيات التي تُثقل حياتكِ.":"Practical tools to change the thoughts and behaviours that weigh on your life.","التواصل الأسري وحل النزاعات":"Family Communication & Conflict Resolution","مهارات حوار فعّال لعلاقات أقرب وخلافات أقل.":"Effective dialogue skills for closer relationships and fewer arguments.",
+"مستشارة أسرية وزواجية ولايف كوتش، بخبرة تزيد على عشر سنوات في الإرشاد الأسري والزواجي والتدريب الحياتي، وأساس علمي يجمع بين علم النفس والعلاج المعرفي السلوكي (CBT). قدّمتُ عشرات الجلسات الفردية والجماعية حضوريًا وعن بُعد، وأسهمتُ في رفع الوعي المجتمعي بقضايا الأسرة عبر المقالات والمحتوى المرئي.":"I’m a family and marital counsellor and life coach with over ten years of experience in family and marital guidance and life coaching, grounded in psychology and cognitive behavioural therapy (CBT). I have led dozens of individual and group sessions, in person and online, and helped raise community awareness of family issues through articles and video content.","سنوات خبرة":"years of experience","دورة ودبلومة":"courses & diplomas","سنوات أونلاين":"years online","ليسانس علم النفس – جامعة القاهرة":"BA in Psychology – Cairo University","دبلومة الإرشاد الأسري – جامعة عين شمس":"Diploma in Family Counselling – Ain Shams University","اعتماد لايف كوتش":"Certified Life Coach","مدربة زواجية معتمدة":"Certified Marriage Coach","تدريب المدربين TOT":"Training of Trainers (TOT)",
+"فردي":"Individual","جلسة خاصة بسرّية تامة.":"A private, fully confidential session.","جماعي":"Group","مجموعات صغيرة للتبادل والدعم.":"Small groups for sharing and support.","ورش عمل":"Workshops","تواصل أسري، إدارة الوقت، حل المشكلات.":"Family communication, time management, problem solving.","تدريب مؤسسي":"Corporate training","برامج للجهات والمؤسسات.":"Programmes for organisations and institutions.",
+"البرامج والأسعار":"Programmes & Pricing","مدة الجلسة 60 دقيقة عبر الإنترنت. اختاري ما يناسبكِ.":"Each session is 60 minutes online. Choose what suits you.","جلسة واحدة":"Single session","ر.س":"SAR","جلسة فردية أونلاين":"One online individual session","خطة عمل مختصرة":"A short action plan","احجزي":"Book","برنامج 4 أسابيع":"4-week programme","4 جلسات فردية":"4 individual sessions","متابعة عبر واتساب":"WhatsApp follow-up","تمارين أسبوعية":"Weekly exercises","برنامج 12 أسبوعًا":"12-week programme","12 جلسة فردية":"12 individual sessions","خطة تحول متكاملة":"A complete transformation plan","متابعة مستمرة":"Ongoing follow-up",
+"نماذج تجريبية، تُستبدل بآراء حقيقية بعد موافقة أصحابها.":"Sample reviews, to be replaced with real ones once clients approve.","«ساعدتني الجلسات على فهم شريكي والتواصل معه بهدوء. فرق كبير في بيتنا.»":"“The sessions helped me understand my partner and talk with him calmly. A big difference in our home.”","«أسلوب دافئ ومحترف، وخرجتُ بخطوات عملية واضحة.»":"“A warm, professional style, and I left with clear, practical steps.”","«استشارة ما قبل الزواج غيّرت نظرتنا لكثير من الأمور.»":"“The pre-marriage consultation changed how we see many things.”","— عميلة (نموذج)":"— Client (sample)","— عميل (نموذج)":"— Client (sample)",
+"مقالات قصيرة عن العلاقات والأسرة والوعي الذاتي.":"Short articles on relationships, family and self-awareness.","لغات الحب الخمس: كيف تفهمين شريككِ؟":"The five love languages: how do you understand your partner?","مدخل بسيط لفهم طريقة كل طرف في التعبير عن الحب.":"A simple introduction to how each person expresses love.","كيف تحلّين الخلاف دون جرح؟":"How do you resolve conflict without hurting?","خطوات عملية لحوار هادئ يقرّب ولا يباعد.":"Practical steps for a calm dialogue that brings you closer.","التربية بالحب: أين نبدأ؟":"Parenting with love: where do we start?","أساسيات التربية الإيجابية في الحياة اليومية.":"The basics of positive parenting in everyday life.","اقرئي المزيد ←":"Read more →","اشتركي":"Subscribe",
+"احجزي جلستكِ":"Book your session","املئي النموذج وسنؤكد الموعد معكِ. الاستشارة التعريفية المجانية متاحة أحيانًا، اسألي عنها.":"Fill in the form and we will confirm your appointment. A free intro consultation is sometimes available, so just ask.","الاسم *":"Name *","رقم الجوال (واتساب) *":"Mobile number (WhatsApp) *","نوع الجلسة *":"Session type *","الموعد المفضل *":"Preferred date & time *","ورشة عمل / جلسة جماعية":"Workshop / group session","نبذة عن حالتكِ":"A short note about your situation","(اختياري)":"(optional)","طريقة الدفع":"Payment method","💳 بطاقة":"💳 Card","🏦 تحويل بنكي":"🏦 Bank transfer","تأكيد الحجز":"Confirm booking","يُرسل طلبكِ عبر واتساب حاليًا. الدفع الإلكتروني والتذكيرات التلقائية يُفعَّلان عند ربط الموقع بنظام الحجز.":"Your request is currently sent via WhatsApp. Online payment and automatic reminders are enabled once the site is linked to a booking system.",
+"يسعدني سماعكِ في أي وقت.":"I’m happy to hear from you any time.","💬 واتساب":"💬 WhatsApp","📞 اتصال":"📞 Call","✉️ البريد":"✉️ Email","© الزهراء الجمال – مستشارة أسرية وزواجية | لايف كوتش · الرياض، المملكة العربية السعودية · الجلسات تُقدَّم عن بُعد لجميع الدول":"© Zahraa Al-Jammal – Family & Marital Counsellor | Life Coach · Riyadh, Saudi Arabia · Sessions are offered online to clients in all countries"};
+var PE={".nl input":"Your email for the weekly newsletter","#m":"You can leave this field empty"};
+var nodes=[],w=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT,null),n;
+document.querySelectorAll("#s option").forEach(function(o){o.value=o.textContent});
+while(n=w.nextNode()){var k=n.nodeValue.trim();if(T[k])nodes.push([n,n.nodeValue,k])}
+function setL(l){L=l;var en=l==="en";
+nodes.forEach(function(x){x[0].nodeValue=en?x[1].replace(x[2],T[x[2]]):x[1]});
+for(var s in PE){var e=document.querySelector(s);if(!e._p)e._p=e.placeholder;e.placeholder=en?PE[s]:e._p}
+document.documentElement.lang=l;document.documentElement.dir=en?"ltr":"rtl";
+document.title=en?"Zahraa Al-Jammal | Family Counsellor & Life Coach":"الزهراء الجمال | مستشارة أسرية وزواجية ولايف كوتش";
+lt.dataset.l=l;try{localStorage.setItem("lang",l)}catch(e){}}
+function thanks(f){f.innerHTML='<p style="width:100%;text-align:center">'+(L==="en"?"Thank you for subscribing 🌸":"شكرًا لاشتراككِ 🌸")+'</p>'}
+lt.onclick=function(){setL(L==="ar"?"en":"ar")};
+try{if(localStorage.getItem("lang")==="en")setL("en")}catch(e){}
+</script>
+</body>
+</html>
